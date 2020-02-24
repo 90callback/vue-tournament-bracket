@@ -1364,6 +1364,17 @@ module.exports = {};
 
 /***/ }),
 
+/***/ "8554":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_78260a75_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("eb4e");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_78260a75_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_78260a75_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_78260a75_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "85f2":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1541,6 +1552,21 @@ module.exports = function (it) {
 module.exports = !__webpack_require__("79e5")(function () {
   return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
 });
+
+
+/***/ }),
+
+/***/ "9f1f":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("2350")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".points[data-v-78260a75]{display:inline-block;float:right;font-weight:700}", ""]);
+
+// exports
 
 
 /***/ }),
@@ -1980,6 +2006,21 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 /***/ }),
 
+/***/ "eb4e":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("9f1f");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("5f16d7c9", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
 /***/ "f1ae":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2100,13 +2141,22 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f3b7c12-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=78260a75&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('bracket',{attrs:{"rounds":_vm.rounds},scopedSlots:_vm._u([{key:"player",fn:function(ref){
+var player = ref.player;
+return [_vm._v("\n        "+_vm._s(player.name)+" "),_c('span',{staticClass:"points"},[_vm._v(_vm._s(player.points))])]}}])})}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=78260a75&scoped=true&
+
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f3b7c12-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Bracket.vue?vue&type=template&id=a26de382&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.recursiveBracket)?_c('div',{staticClass:"vtb-wrapper"},[_c('bracket-node',{attrs:{"bracket-node":_vm.recursiveBracket,"highlighted-player-id":_vm.highlightedPlayerId},on:{"onSelectedPlayer":_vm.highlightPlayer,"onDeselectedPlayer":_vm.unhighlightPlayer},scopedSlots:_vm._u([{key:"player",fn:function(ref){
+var Bracketvue_type_template_id_a26de382_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.recursiveBracket)?_c('div',{staticClass:"vtb-wrapper"},[_c('bracket-node',{attrs:{"bracket-node":_vm.recursiveBracket,"highlighted-player-id":_vm.highlightedPlayerId},on:{"onSelectedPlayer":_vm.highlightPlayer,"onDeselectedPlayer":_vm.unhighlightPlayer},scopedSlots:_vm._u([{key:"player",fn:function(ref){
 var player = ref.player;
 return [_vm._t("player",null,{"player":player})]}},{key:"player-extension-bottom",fn:function(ref){
 var match = ref.match;
 return [_vm._t("player-extension-bottom",null,{"match":match})]}}],null,true)})],1):_vm._e()}
-var staticRenderFns = []
+var Bracketvue_type_template_id_a26de382_staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/Bracket.vue?vue&type=template&id=a26de382&
@@ -2501,8 +2551,8 @@ var Bracketvue_type_style_index_0_lang_css_ = __webpack_require__("5181");
 
 var Bracket_component = normalizeComponent(
   src_Bracketvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
+  Bracketvue_type_template_id_a26de382_render,
+  Bracketvue_type_template_id_a26de382_staticRenderFns,
   false,
   null,
   null,
@@ -2511,10 +2561,146 @@ var Bracket_component = normalizeComponent(
 )
 
 /* harmony default export */ var Bracket = (Bracket_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+
+var rounds = [//Quarter
+{
+  games: [{
+    player1: {
+      id: "1",
+      name: "Team1",
+      winner: true,
+      points: 2
+    },
+    player2: {
+      id: "2",
+      name: "Team2",
+      winner: false,
+      points: 0
+    }
+  }, {
+    player1: {
+      id: "3",
+      name: "Competitor 3",
+      winner: false
+    },
+    player2: {
+      id: "4",
+      name: "Competitor 4",
+      winner: true
+    }
+  }, {
+    player1: {
+      id: "5",
+      name: "Competitor 5",
+      winner: true
+    },
+    player2: {
+      id: "6",
+      name: "Competitor 6",
+      winner: false
+    }
+  }, {
+    player1: {
+      id: "7",
+      name: "Competitor 7",
+      winner: false
+    },
+    player2: {
+      id: "8",
+      name: "Competitor 8",
+      winner: true
+    }
+  }]
+}, //Semi
+{
+  games: [{
+    player1: {
+      id: "1",
+      name: "Competitor 1",
+      winner: false
+    },
+    player2: {
+      id: "4",
+      name: "Competitor 4",
+      winner: true
+    }
+  }, {
+    player1: {
+      id: "5",
+      name: "Competitor 5",
+      winner: false
+    },
+    player2: {
+      id: "8",
+      name: "Competitor 8",
+      winner: true
+    }
+  }]
+}, //Final
+{
+  games: [{
+    player1: {
+      id: "4",
+      name: "Competitor 4",
+      winner: false
+    },
+    player2: {
+      id: "8",
+      name: "Competitor 8",
+      winner: true
+    }
+  }]
+}];
+/* harmony default export */ var Appvue_type_script_lang_js_ = ({
+  name: "app",
+  components: {
+    Bracket: Bracket
+  },
+  data: function data() {
+    return {
+      rounds: rounds
+    };
+  }
+});
+// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
+ /* harmony default export */ var src_Appvue_type_script_lang_js_ = (Appvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/App.vue?vue&type=style&index=0&id=78260a75&scoped=true&lang=css&
+var Appvue_type_style_index_0_id_78260a75_scoped_true_lang_css_ = __webpack_require__("8554");
+
+// CONCATENATED MODULE: ./src/App.vue
+
+
+
+
+
+
+/* normalize component */
+
+var App_component = normalizeComponent(
+  src_Appvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "78260a75",
+  null
+  
+)
+
+/* harmony default export */ var App = (App_component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (Bracket);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (App);
 
 
 
