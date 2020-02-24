@@ -120,15 +120,17 @@
     }
 
     .vtb-item-players .vtb-player {
-        padding: 10px;
+        padding: 5px;
+        min-width: 150px;
+        text-align: center;
     }
 
     .vtb-item-players .winner {
-        background-color: darkgreen;
+        background-color: rgb(78, 167, 78);
     }
 
     .vtb-item-players .defeated {
-        background-color: firebrick;
+        background-color: #da4444;
     }
 
     .vtb-item-players .winner.highlight {
