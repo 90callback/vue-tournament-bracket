@@ -8,7 +8,7 @@
   "main": "dist/vue-tournament-bracket.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-tournament-bracket ./src/App.vue",
+    "build": "vue-cli-service build --target lib --name vue-tournament-bracket ./src/Bracket.vue",
     "lint": "vue-cli-service lint",
     "eslint": "eslint src test --ignore-pattern *bundle* --ext js,vue",
     "test": "mocha --require should test/**/*.test.js"
