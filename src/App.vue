@@ -1,7 +1,7 @@
 <template>
     <bracket :rounds="rounds">
         <template #player="{ player }">
-            {{ player.name }} <span class="points">{{ player.points }}</span>
+            {{ player.name }}
         </template>
     </bracket>
 </template>
@@ -67,11 +67,3 @@
         }
     };
 </script>
-
-<style scoped>
-.points {
-  display: inline-block;
-  float: right;
-  font-weight: bold;
-}
-</style>

@@ -7,7 +7,7 @@
             :highlighted-player-id="highlightedPlayerId"
         >
             <template #player="{ player }">
-                <slot name="player" :player="player" />
+                <slot name="player" :player="player" /> <span class="points">{{ player.points }}</span>
             </template>
             <template #player-extension-bottom="{ match }">
                 <slot name="player-extension-bottom" :match="match" />
@@ -50,5 +50,10 @@
 <style>
     .vtb-wrapper {
         display: flex;
+    }
+    .points {
+      display: inline-block;
+      float: right;
+      font-weight: bold;
     }
 </style>
