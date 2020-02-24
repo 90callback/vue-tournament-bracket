@@ -1218,7 +1218,7 @@ exports = module.exports = __webpack_require__("2350")(false);
 
 
 // module
-exports.push([module.i, ".vtb-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.vtb-item p{padding:20px;margin:0;background-color:#999}.vtb-item-parent{position:relative;margin-left:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.vtb-item-players{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background-color:#999;margin:0;color:#fff}.vtb-item-players .vtb-player{padding:10px}.vtb-item-players .winner{background-color:#006400}.vtb-item-players .defeated{background-color:#b22222}.vtb-item-players .winner.highlight{background-color:#8fbc8f}.vtb-item-players .defeated.highlight{background-color:#cd5c5c}.vtb-item-parent:after{position:absolute;content:\"\";width:25px;height:2px;left:0;top:50%;background-color:grey;-webkit-transform:translateX(-100%);transform:translateX(-100%)}.vtb-item-children{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.vtb-item-child,.vtb-item-children{display:-webkit-box;display:-ms-flexbox;display:flex}.vtb-item-child{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-top:10px;margin-bottom:10px;position:relative}.vtb-item-child:before{right:0;-webkit-transform:translateX(100%);transform:translateX(100%);width:25px;height:2px}.vtb-item-child:after,.vtb-item-child:before{content:\"\";position:absolute;background-color:grey;top:50%}.vtb-item-child:after{right:-25px;height:calc(50% + 22px);width:2px}.vtb-item-child:last-child:after{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vtb-item-child:only-child:after{display:none}", ""]);
+exports.push([module.i, ".vtb-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.vtb-item p{padding:20px;margin:0;background-color:#999}.vtb-item-parent{position:relative;margin-left:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.vtb-item-players{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background-color:#999;margin:0;color:#fff}.vtb-item-players .vtb-player{padding:5px;min-width:150px;text-align:center}.vtb-item-players .winner{background-color:#4ea74e}.vtb-item-players .defeated{background-color:#da4444}.vtb-item-players .winner.highlight{background-color:#8fbc8f}.vtb-item-players .defeated.highlight{background-color:#cd5c5c}.vtb-item-parent:after{position:absolute;content:\"\";width:25px;height:2px;left:0;top:50%;background-color:grey;-webkit-transform:translateX(-100%);transform:translateX(-100%)}.vtb-item-children{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.vtb-item-child,.vtb-item-children{display:-webkit-box;display:-ms-flexbox;display:flex}.vtb-item-child{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-top:10px;margin-bottom:10px;position:relative}.vtb-item-child:before{right:0;-webkit-transform:translateX(100%);transform:translateX(100%);width:25px;height:2px}.vtb-item-child:after,.vtb-item-child:before{content:\"\";position:absolute;background-color:grey;top:50%}.vtb-item-child:after{right:-25px;height:calc(50% + 22px);width:2px}.vtb-item-child:last-child:after{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vtb-item-child:only-child:after{display:none}", ""]);
 
 // exports
 
@@ -2100,7 +2100,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0e2cbaba-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Bracket.vue?vue&type=template&id=29a87a63&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f3b7c12-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Bracket.vue?vue&type=template&id=a26de382&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.recursiveBracket)?_c('div',{staticClass:"vtb-wrapper"},[_c('bracket-node',{attrs:{"bracket-node":_vm.recursiveBracket,"highlighted-player-id":_vm.highlightedPlayerId},on:{"onSelectedPlayer":_vm.highlightPlayer,"onDeselectedPlayer":_vm.unhighlightPlayer},scopedSlots:_vm._u([{key:"player",fn:function(ref){
 var player = ref.player;
 return [_vm._t("player",null,{"player":player})]}},{key:"player-extension-bottom",fn:function(ref){
@@ -2109,10 +2109,10 @@ return [_vm._t("player-extension-bottom",null,{"match":match})]}}],null,true)})]
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/Bracket.vue?vue&type=template&id=29a87a63&
+// CONCATENATED MODULE: ./src/Bracket.vue?vue&type=template&id=a26de382&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0e2cbaba-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BracketNode.vue?vue&type=template&id=6a423804&
-var BracketNodevue_type_template_id_6a423804_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vtb-item"},[_c('div',{class:_vm.getBracketNodeClass(_vm.bracketNode)},[_c('game-players',{attrs:{"bracket-node":_vm.bracketNode,"highlighted-player-id":_vm.highlightedPlayerId},on:{"onSelectedPlayer":_vm.highlightPlayer,"onDeselectedPlayer":_vm.unhighlightPlayer},scopedSlots:_vm._u([{key:"player",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f3b7c12-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/BracketNode.vue?vue&type=template&id=7d9ddcfb&
+var BracketNodevue_type_template_id_7d9ddcfb_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vtb-item"},[_c('div',{class:_vm.getBracketNodeClass(_vm.bracketNode)},[_c('game-players',{attrs:{"bracket-node":_vm.bracketNode,"highlighted-player-id":_vm.highlightedPlayerId},on:{"onSelectedPlayer":_vm.highlightPlayer,"onDeselectedPlayer":_vm.unhighlightPlayer},scopedSlots:_vm._u([{key:"player",fn:function(ref){
 var player = ref.player;
 return [_vm._t("player",null,{"player":player})]}},{key:"player-extension-bottom",fn:function(ref){
 var match = ref.match;
@@ -2125,17 +2125,17 @@ var player = ref.player;
 return [_vm._t("player",null,{"player":player})]}},{key:"player-extension-bottom",fn:function(ref){
 var match = ref.match;
 return [_vm._t("player-extension-bottom",null,{"match":match})]}}],null,true)})],1):_vm._e()]):_vm._e()])}
-var BracketNodevue_type_template_id_6a423804_staticRenderFns = []
+var BracketNodevue_type_template_id_7d9ddcfb_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/BracketNode.vue?vue&type=template&id=6a423804&
+// CONCATENATED MODULE: ./src/components/BracketNode.vue?vue&type=template&id=7d9ddcfb&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0e2cbaba-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/GamePlayers.vue?vue&type=template&id=26117be4&
-var GamePlayersvue_type_template_id_26117be4_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vtb-item-players"},[_c('div',[_c('div',{class:['vtb-player', 'vtb-player1', _vm.getPlayerClass(_vm.bracketNode.player1)],on:{"mouseover":function($event){return _vm.highlightPlayer(_vm.bracketNode.player1.id)},"mouseleave":_vm.unhighlightPlayer}},[_vm._t("player",null,{"player":_vm.bracketNode.player1})],2),_c('div',{class:['vtb-player', 'vtb-player2', _vm.getPlayerClass(_vm.bracketNode.player2)],on:{"mouseover":function($event){return _vm.highlightPlayer(_vm.bracketNode.player2.id)},"mouseleave":_vm.unhighlightPlayer}},[_vm._t("player",null,{"player":_vm.bracketNode.player2})],2)]),_vm._t("player-extension-bottom",null,{"match":_vm.matchProperties})],2)}
-var GamePlayersvue_type_template_id_26117be4_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7f3b7c12-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/GamePlayers.vue?vue&type=template&id=02d3f66b&
+var GamePlayersvue_type_template_id_02d3f66b_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vtb-item-players"},[_c('div',[_c('div',{class:['vtb-player', 'vtb-player1', _vm.getPlayerClass(_vm.bracketNode.player1)],on:{"mouseover":function($event){return _vm.highlightPlayer(_vm.bracketNode.player1.id)},"mouseleave":_vm.unhighlightPlayer}},[_vm._t("player",null,{"player":_vm.bracketNode.player1})],2),_c('div',{class:['vtb-player', 'vtb-player2', _vm.getPlayerClass(_vm.bracketNode.player2)],on:{"mouseover":function($event){return _vm.highlightPlayer(_vm.bracketNode.player2.id)},"mouseleave":_vm.unhighlightPlayer}},[_vm._t("player",null,{"player":_vm.bracketNode.player2})],2)]),_vm._t("player-extension-bottom",null,{"match":_vm.matchProperties})],2)}
+var GamePlayersvue_type_template_id_02d3f66b_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/GamePlayers.vue?vue&type=template&id=26117be4&
+// CONCATENATED MODULE: ./src/components/GamePlayers.vue?vue&type=template&id=02d3f66b&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
 var es6_object_assign = __webpack_require__("f751");
@@ -2305,8 +2305,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_GamePlayersvue_type_script_lang_js_,
-  GamePlayersvue_type_template_id_26117be4_render,
-  GamePlayersvue_type_template_id_26117be4_staticRenderFns,
+  GamePlayersvue_type_template_id_02d3f66b_render,
+  GamePlayersvue_type_template_id_02d3f66b_staticRenderFns,
   false,
   null,
   null,
@@ -2425,8 +2425,8 @@ var BracketNodevue_type_style_index_0_lang_css_ = __webpack_require__("d051");
 
 var BracketNode_component = normalizeComponent(
   components_BracketNodevue_type_script_lang_js_,
-  BracketNodevue_type_template_id_6a423804_render,
-  BracketNodevue_type_template_id_6a423804_staticRenderFns,
+  BracketNodevue_type_template_id_7d9ddcfb_render,
+  BracketNodevue_type_template_id_7d9ddcfb_staticRenderFns,
   false,
   null,
   null,
